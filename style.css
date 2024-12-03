@@ -1,0 +1,18 @@
+body {
+	color: white;
+    display: grid;
+    place-items: center;
+	background: black;
+    margin: auto;
+}
+main {
+	border: 1px solid green;
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    padding: 16px;
+    margin: 16px;
+    top: 0px
+}
+.center {
+    max-width: 100%;
+}
