@@ -1,18 +1,132 @@
+/* html {
+    animation: scrolling 10s linear 1;
+    animation-direction: forward;
+    animation-iteration-count: infinite;
+    background-image: url(files/tile.png);
+} */
+
+html {
+	padding: 10px;
+}
+
 body {
-	color: white;
-    display: grid;
-    place-items: center;
-	background: black;
+    color: #07ff87;
+    border: 2px solid #fc0076;
+    background: #080709;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    font-style: normal;
+    max-width: 720px;
     margin: auto;
 }
+
 main {
-	border: 1px solid green;
-    background: rgba(0, 0, 0, 0.75);
-    position: absolute;
-    padding: 16px;
-    margin: 16px;
-    top: 0px
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    padding: 8px;
 }
-.center {
-    max-width: 100%;
+
+nav a {
+    color: #07ff87;
+	border-right: 2px solid #fc0076;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+	flex: 1;
+	white-space: nowrap;
 }
+nav {
+	border-bottom: 2px solid #fc0076;
+	background: #080709;
+	font-size: 15px;
+	display: flex;
+	text-align: center;
+}
+
+a {
+	color: #fc0076;
+	text-decoration: underline;
+}
+
+.floatypic-container {
+	position: relative;
+	width: 100%;	
+	height: 70px;
+}
+
+/* big pc */
+#floatypic {
+	position: absolute;
+	width: 400px;
+	top: 100%;
+	left: 120%;
+	transform: translate(-120%, -100%);
+	z-index: 100;
+}
+
+/* mail */
+#floatypic1 {
+	position: absolute;
+	width: 81px;
+	top: -385%;
+	left: 94%;
+	transform: translate(-94%, -385%);
+	z-index: 100; 
+}
+
+/* little pc */
+#floatypic2 {
+	position: absolute;
+	width: 64px;
+	top: 250%;
+	left: 60%;
+	transform: translate (-250%, -60%);
+	z-index: 100;
+}
+
+#floatycard {
+	position: absolute;
+	width: 35px;
+	top: 300%;
+	left: 50%;
+	transform: translate (-300%, -60%);
+	z-index: 100;
+}
+
+#floatycard1 {
+	position: absolute;
+	width: 35px;
+	top: 300%;
+	left: 43%;
+	transform: translate (-300%, -60%);
+	z-index: 100;
+}
+
+#floatycard2 {
+	position: absolute;
+	width: 35px;
+	top: 300%;
+	left: 37%;
+	transform: translate (-300%, -60%);
+	z-index: 100;
+}
+
+.gif-container {
+	padding: 1px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gif {
+	width: 88px;
+	height: 31px;
+	margin: 5px;
+	object-fit: cover;	
+}
+
+/* @keyframes scrolling {
+    from {background-position: 0px 0px;}
+    to {background-position: 0px 480px;}
+} */
