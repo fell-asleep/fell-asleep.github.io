@@ -81,7 +81,7 @@ a {
 	position: absolute;
 	width: 35px;
 	top: 300%;
-	left: 50%;
+	left: 52.15%;
 	transform: translate (-300%, -60%);
 	z-index: 100;
 }
@@ -90,7 +90,7 @@ a {
 	position: absolute;
 	width: 35px;
 	top: 300%;
-	left: 43%;
+	left: 46%;
 	transform: translate (-300%, -60%);
 	z-index: 100;
 }
@@ -99,8 +99,17 @@ a {
 	position: absolute;
 	width: 35px;
 	top: 300%;
-	left: 37%;
+	left: 40%;
 	transform: translate (-300%, -60%);
+	z-index: 100;
+}
+
+#floatyarrow {
+	position: absolute;
+	width: 25px;
+	top: 295%;
+	left: 36%;
+	transform: translate (-295%, -60%);
 	z-index: 100;
 }
 
