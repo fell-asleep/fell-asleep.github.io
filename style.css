@@ -41,6 +41,15 @@ a {
 	text-decoration: underline;
 }
 
+.icon {
+	margin-top: -60px;
+	height: 160px;
+}
+
+.highlighted-text {
+	color:#fc0076;
+}
+
 .floatypic-container {
 	position: relative;
 	width: 100%;	
@@ -59,12 +68,12 @@ a {
 
 /* mail */
 #floatypic1 {
-	position: absolute;
-	width: 81px;
-	top: -375%;
-	left: 94%;
-	transform: translate(-94%, -375%);
-	z-index: 100; 
+    position: absolute;
+    top: 45px;
+    left: calc(50% + 274px);
+    margin-top: 5px;
+    width: 81px;
+    transform: translateX(-50%);
 }
 
 /* little pc */
