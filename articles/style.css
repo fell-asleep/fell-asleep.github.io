@@ -1,0 +1,37 @@
+body {
+    font-family: "Georgia", serif; 
+    font-size: 100%;
+    font-style: normal;
+    max-width: 720px;
+    padding: 0px 8px 0px 8px;
+    margin: auto;
+}
+
+.highlighted-text-red {
+    color: #fc0076;
+}
+
+.highlighted-text-green {
+    color: #07ff87;
+
+}
+
+.highlighted-text-purple {
+    color: #551a8b;
+}
+
+.arial-text {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 20px 0;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #551a8b;
+  margin: 5px 0 20px;
+}
