@@ -2,21 +2,21 @@
   font-family: 'Libre-Baskerville Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Libre-Baskerville Regular'), url('fonts/LibreBaskerville-Regular.ttf') format('ttf');
+  src: local('Libre-Baskerville Regular'), url('fonts/LibreBaskerville-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Libre-Baskerville Italic';
   font-style: normal;
   font-weight: normal;
-  src: local('Libre-Baskerville Italic'), url('fonts/LibreBaskerville-Italic.ttf') format('ttf');
+  src: local('Libre-Baskerville Italic'), url('fonts/LibreBaskerville-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Libre-Baskerville Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Libre-Baskerville Bold'), url('fonts/LibreBaskerville-Bold.ttf') format('ttf');
+  src: local('Libre-Baskerville Bold'), url('fonts/LibreBaskerville-Bold.ttf') format('truetype');
 }
 
 body {
@@ -28,6 +28,9 @@ body {
     margin: auto;
 }
 
+a {
+  color: #551a8b;
+}
 .highlighted-text-red {
     color: #fc0076;
 }
